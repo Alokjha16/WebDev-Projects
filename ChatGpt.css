@@ -1,0 +1,116 @@
+body {
+    background-color: #212121;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.option {
+    background-color: #212121;
+    color: #ffffff;
+    height: 28px;
+    width: 120px;
+    font-size: x-large;
+    margin-left: 70px;
+    display: inline-block;
+    border: none;
+}
+
+.small {
+    height: 55px;
+    width: 640px;
+    background-color: #373636;
+    margin-left: 470px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.input {
+    height: 50px;
+    width: 640px;
+    background-color: #373636;
+    margin-left: 470px;
+    margin-top: 50px;
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border: none;
+    font-size: larger;
+}
+.text{
+    color: white;
+    margin-left: 600px;
+    margin-top: 80px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    height: 10px;
+}
+.plus{
+    margin-left: 490px;
+    margin-top: 100px;
+    font-size: x-large;
+    color: white;
+    display: flex;
+
+    
+}
+.to{
+    margin-left: 20px;
+    margin-top: 5px;
+    font-size: large;
+height: 20px;
+width: 20px;
+display: flex;
+cursor: pointer;
+}
+.t{
+    padding-left: 8px;
+    cursor: pointer;
+    display: flex;
+}
+.mic{
+    margin-left: 430px;
+    display: flex;
+}
+.wave{
+margin-left: 30px;
+}
+.long{
+    height: 70pc;
+    width: 50px;
+    background-color: aqua;
+    display:flex;
+}
+.im{
+    background-image: url(Screenshot\ 2025-07-11\ 000804.png);
+    background-size:;
+    height: 200px;
+    width: 80px;
+    margin-left: 0px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.work{
+    margin-left: 700px;
+    color: white;
+    height: 20px;
+    width: 150px;
+    background-color: #373669;
+    border-radius: 10px;
+    display: flex;
+
+}
+.chat{
+    margin-left: 1450px;
+    color: white;
+    font-size: larger;
+    display: flex;
+}
+.ac{
+    margin-left: 20px;
+}
+
