@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Signup Form</title>
+  <style>
+    body{
+      background: #86bcec;
+      font-family: Arial, sans-serif;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      width: 400px;
+    }
+
+    h2{text-align: center;}
+
+    input,select{
+      width: 400px;
+      border-radius: 7px;
+      padding: 8px;
+    }
+
+    input[type="submit"]{
+      background-color: rgb(94, 181, 239);
+      color: aliceblue;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover{
+      background-color:blue;
+    }
+    
+    label{
+      font-weight: bold;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+  <h2>Student Signup Form</h2>
+
+  <form>
+    <label>Full Name:</label><br>
+    <input type="text" name="name"  required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Age:</label><br>
+    <input type="number" name="age" required><br><br>
+
+    <label>Gender:</label><br>
+    <select name="gender" required>
+      <option value="">Select</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select><br><br>
+
+    <label>Course:</label><br>
+    <input type="text" name="course" placeholder="eg,Computer Science" required><br><br>
+
+    <label>Password:</label><br>
+    <input type="password" name="password"><br><br>
+
+    <input type="submit" value="Signup">
+  </form>
+  </div>
+
+</body>
+</html>
+
